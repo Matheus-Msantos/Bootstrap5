@@ -1,0 +1,47 @@
+/*BANNER*/
+
+.banner-produtos{
+    min-height: 30vh;
+    background-image:linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url('../imagem/banner04.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Filtro*/
+
+/*LINE*/
+.filter-underline{
+    height: 3px;
+    background-color: var(--yellow);
+}
+
+/*LINKs*/
+.filter{
+    text-decoration: none !important;
+    color: var(--black);
+}
+.filter:hover{
+    color: var(--grey);
+}
+
+/*COR*/
+
+.filter-color{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+
+.filter-color-black{
+    background-color: var(--black);
+}
+
+.filter-color-yellow{
+    background-color: var(--yellow);
+}
+
+.filter-color-red{
+    background-color: var(--red);
+}

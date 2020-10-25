@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- JS, Popper.js, jQuery and Font -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4d52201842.js" crossorigin="anonymous"></script>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <!--Titulo-->
+    <title>AD.EZ - A maior rede de streamers do Brasil!</title>
+</head>
+
+<body>
+    <header>
+        <div class="liner-top"></div>
+        <nav class="navbar navbar-expand-sm navbar-light d-flex">
+            <a href="#" class="navbar-brand"><img src=" http://adezweb.com/images/adez_2018_logoHeader.png" alt="Logo da Ad.ez"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bar">
+                <i class="fas fa-bars fa-lg mt-2"></i>
+            </button>
+            <div id="bar" class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav mr-5">
+                    <li class="nav-item active"><a href="#" class="nav-link">A rede</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link text-muted">Streamer</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link text-muted">Clientes</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link text-muted">Contato</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link text-muted">Dashboard</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="slideVideo" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#slideVideo" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideVideo" data-slide-to="1"></li>
+                    <li data-target="#slideVideo" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <video class="w-100 d-block" muted autoplay preload="auto" loop>
+                        <source src="http://adezweb.com/video\adez_hero_01.mp4" type="video/mp4">
+                    </video>
+                    <div class="d-flex align-container-center">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="h4">A rede</h2>
+                            <span class="text-slide text-uppercase pb-3">AD.EZ</span>
+                            <h3 class="h6">A maior rede de streamers do Brasil</h3>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h1>OLá</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h1>OLá</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#slideVideo" data-slide="prev">
+                    <i class="icon-slide fas fa-arrow-circle-left fa-2x"></i>
+                </a>
+                <a class="carousel-control-next" href="#slideVideo" data-ride="next">
+                    <i class="icon-slide fas fa-arrow-circle-right fa-2x"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

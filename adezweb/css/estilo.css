@@ -1,0 +1,35 @@
+:root{
+    --red: #dd1b45;
+}
+
+
+
+/*HEADER*/
+
+.liner-top{
+    border: 2px solid var(--red);
+}
+.nav-link{
+    font-size: 18px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    border: none;
+    color: var(--red) !important;
+}
+
+/*MAiN*/
+
+.icon-slide{
+    color: var(--red);
+}
+
+.carousel-caption{
+    align-content: center;
+}
+
+.text-slide {
+    font-size: 70px;
+    color: var(--red);
+}

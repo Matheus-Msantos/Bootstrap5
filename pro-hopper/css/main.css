@@ -1,0 +1,61 @@
+.nav-icon{
+    outline: none !important;
+    border: none;   
+}
+
+.active{
+    border-bottom: 1px solid #ffbb00;
+}
+
+.btn{
+    background-color: #ffbb00;
+}
+
+/*Body*/
+
+.banner{
+    min-height: calc(100vh - 76px);
+    background: url('https://via.placeholder.com/1900x1900') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.text-title{
+    color: white;
+}
+
+.text-titleSegundary{
+    color: #ffbb00;
+    border-bottom: 2px solid #ffbb00;
+
+}
+
+.card{
+    border: none !important;
+}
+
+/*Footer*/
+
+.maps{
+    width: 190px;
+    height: 150px;
+    border-radius: 95px;
+}
+
+.contato{
+    border-radius: 20px;
+}
+
+.icon{
+    background: #ffbb00;
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.entrega-pagamento{
+    border-bottom: 2px solid #ffbb00;
+    padding: 3px;
+    margin-top: 5px;
+}

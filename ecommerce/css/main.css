@@ -1,0 +1,98 @@
+:root{
+    --yellow: #fdbe02;
+    --white: #ffffff;
+    --black: #071013;
+    --red: #ff0000;
+    --grey: #9b9999;
+    --greyTransparent: rgba(0,0,0,.1);
+}
+
+.navbar-toggler{
+    outline: none !important;
+    color: var(--yellow) !important;
+    border: none;
+}
+
+.nav-active{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.btn-primary{
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    color: var(--black);
+}
+
+.btn-primary:hover{
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--yellow);
+
+}
+
+.bg-secondary{
+    background-color: var(--greyTransparent) !important;
+}
+
+.text-yellow{
+    color: var(--yellow);
+}
+
+/*MENU*/
+.nav-icon{
+    text-decoration: none !important;
+    color: var(--yellow);
+}
+
+.nav-icon:hover{
+    color: var(--grey);
+}
+
+.cart-item{
+    color: var(--white);
+    background-color: var(--yellow);
+    border-radius: 50px;
+    padding: 1px 5px;
+}
+/*MAIN*/
+
+.banner{
+    min-height: calc(100vh - 86px);
+    background: url('https://via.placeholder.com/1900x1900');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Produtos*/
+
+.old-price{
+    text-decoration: line-through;
+}
+
+/*FORNECEDORES*/
+
+.carousel-control-prev{
+    color: var(--black);
+    transform: translateX(-120%);
+}
+
+.carousel-control-next{
+    color: var(--black);
+    transform: translateX(120%);
+}
+
+/*FOOTER*/
+
+.icon-yellow{
+    color: var(--yellow);
+}
+
+.icon-midias{
+    color: var(--yellow);
+}
+
+.icon-midias:hover{
+    color: var(--black);
+}

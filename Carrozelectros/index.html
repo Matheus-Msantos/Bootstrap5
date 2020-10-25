@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4d52201842.js" crossorigin="anonymous"></script>
+    <title>Carrozelectros</title>
+</head>
+
+<body class="bg-dark">
+    <header class="bg-danger">
+        <nav class="navbar navbar-expand-sm ">
+            <img class="logo" src="./imagens/logo-cz2.png">
+            <h1>Carrozelectros</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse " id="menuPrincipal"> 
+                <ul class="navbar-nav mr-auto mx-auto ">
+                    <li class="navbar-item pl-3"><a class="navbar-link text-white" href="#">Início</a></li>
+                    <li class="navbar-item pl-3"><a class="navbar-link text-white" href="./sobre.html">Quem somos</a></li>
+                    <li class="navbar-item pl-3"><a class="navbar-link text-white" href="#">Futuros carros</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    <main class="container p-0 mt-2">
+
+        <section id="carroPrincipalIndicators" class="carousel slide" data-ride="carousel ">
+            <ol class="carousel-indicators">
+                <li data-target="#carrosPrincipalIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carroPrincipalIndicators" data-slide-to="1"></li>
+                <li data-target="#carroPrincipalIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/truffade.png">
+                    <div class="carousel-caption d-none d-md-block text-left p-2">
+                        <h2>Novo lançamento da Carrozelectros</h2>
+                        <h3 class="">Truffade Adder</h3>
+                        <p>O primeiro carro esportivo totalmente elétrico</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/truffade_motor.png">
+                    <div class="carousel-caption d-none d-md-block text-left p-2">
+                        <p class="h4">O Trunffade Adder tem autonomia de até 436 km, utiliza dois motores de última geração um em cada eixo, que entregam 408 cv.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/truffade_tras.png">
+                    <div class="carousel-caption d-none d-md-block text-lef p-2">
+                        <p class="h4 text-dark">Pré-venda, por R$ 1,500.000.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carroPrincipalIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" arial-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carroPrincipalIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" arial-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </section>
+
+        <section id="produtos">
+            <h2 class="my-5 text-white">Nossos carros</h2>
+
+            <div class="card bg-dark">
+                <div class="row no-gutters ml-1">
+                    <div class="col-sm-4">
+                        <img class="card-img " src="./imagens/surge.jpg">
+                    </div>
+                    <div class="card-body col-sm-7 mx-auto text-white">
+                        <h3 class="card-title text-weight-bold text-uppercase">Surge</h3>
+                        <p class="card-text  mb-2">Uma SUV de luxo totalmente elétrico. Tem potência de 180 kW e atinge 130 km/h em modo todo elétrico.</p>
+                        <span class="card-text h4 ">R$ 40.000</span>
+                        <button class="btn d-block mt-2 bg-danger text-white" type="button" >Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark">
+                <div class="row no-gutters ml-1">
+                    <div class="col-sm-4">
+                        <img class="card-img" src="./imagens/benefactor.jpg">
+                    </div>
+                    <div class="card-body col-sm-7 mx-auto text-white">
+                        <h3 class="card-title text-weight-bold text-uppercase">Benefactor Surano</h3>
+                        <p class="card-text">Veículo completamente elétrico. Este é o modelo tem a sua bateria com ótimo peformace de 79,2 kWh e um par de motores elétricos que produzem 429 cavalos.</p>
+                        <span class="card-text h4">R$ 103.800</span>
+                        <button class="btn mt-2 d-block bg-danger text-white">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card bg-dark">
+                <div class="row no-gutters ml-1">
+                    <div class="col-sm-4">
+                        <img class="card-img" src="./imagens/obey.jpg">
+                    </div>
+                    <div class="card-body col-sm-7 mx-auto text-white">
+                        <h3 class="card-text text-weight-bold text-uppercase">Obey 9F</h3>
+                        <p class="card-text">Carro de ultra-alto desempenho, desenvolvido em parceria com a Ford. Esse carro possui toque de mais de 138 kgfm, potência de 900 cavalos e bateria de íons de lítio de quarta geração o segundo mais veloz da nossa linha.</p>
+                        <span class="card-text h4">R$ 500.000</span>
+                        <button class="btn mt-2 d-block bg-danger text-white" type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class=" bg-danger mt-3">
+        <div class="d-flex pt-3">
+            <address class="ml-5 mr-5 pt-5 h4 text-uppercase">Av.Paulista, Bela Vista - 521<br>São Paulo-SP,<br>04863-450</address>
+            <iframe class="maps ml-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.856455256211!2d-46.70421898520568!3d-23.60948046925575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce572cd5b91275%3A0xc3bcae553ddbd854!2sR.%20Paulo%20Bourroul%2C%20281%20-%20Real%20Parque%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005686-050!5e0!3m2!1spt-BR!2sbr!4v1587697786357!5m2!1spt-BR!2sbr"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="d-flex mb-3">
+            <i class="ml-5 fas fa-phone pt-1"></i>
+            <span class="mr-5 ml-2 h6">(11) 5471-5768</span>
+        </div>
+        <div class="d-flex">
+            <i class="ml-4 fas fa-envelope p-1"></i>
+            <span class="mr-5 ml-2 h6">carroselt@gmail.com</span>
+        </div>
+        <div class="d-flex justify-content-center py-2">
+            <span><a class="text-dark" href="#"><i class="fab fa-facebook mr-1"></i>Carrozelectros</a> |<a class="text-dark"href="#"><i class="fab fa-instagram-square mx-1"></i>@Carro_zelectros</a></span>
+        </div>
+    </footer>
+</body>
+</html>

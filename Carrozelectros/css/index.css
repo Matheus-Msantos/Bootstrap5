@@ -1,0 +1,21 @@
+/*Header*/
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+h1{
+    display: none;
+}
+
+.card{
+    border: none !important;
+}
+
+/*Footer*/
+.maps{
+    border-radius: 45px;
+    width:40%; 
+    height:250px;
+}
